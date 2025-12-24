@@ -1,0 +1,17 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 420px;
+    margin-inline: auto;
+    gap: 1rem;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    font-size: 0.875rem;
+    color: var(--color-text-primary);
+}

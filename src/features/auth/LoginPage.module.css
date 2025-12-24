@@ -1,0 +1,20 @@
+.page {
+    flex: 1;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 420px;
+    margin-inline: auto;
+    gap: 1rem;
+}
+
+.serverError {
+    color: var(--color-error);
+}
